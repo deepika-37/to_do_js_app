@@ -1,0 +1,114 @@
+html {
+    font-family: 'Raleway', sans-serif;
+}
+
+
+.blurrr {
+    position: absolute;
+    height: 100%;
+    width: 100%;
+    background-image: url(./screen.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    /* -webkit-filter: blur(5px); */
+    filter: blur(5px);
+    z-index: 1;
+}
+
+.in {
+    text-align: center;
+    background: white;
+    color: red;
+    width: 400px;
+    height: 140px;
+    padding: 40px;
+    position: absolute;
+    top: 35vh;
+    left: 33vw;
+    border: 2px solid red;
+    border-radius: 14px;
+    z-index: 2;
+    box-shadow: 10px 10px 5px lightgrey;
+    
+}
+
+.inp1 {
+    width: 300px;
+    padding: 5px;
+    margin-top: 10px;
+    box-shadow: 5px 5px 5px lightgrey;
+    border-radius: 5px;
+    border: 1px solid red;
+}
+
+.b1 {
+    font-size: 16px;
+    height: 35px;
+    width: 70px;
+    background-color: red;
+    border: 2px solid red;
+    color: white;
+    border-radius: 25px;
+}
+
+label {
+    font-size: 20px;
+}
+
+@media (max-width: 780px) {
+    .adjust {
+        display: none;
+    }
+}
+
+@media (max-width: 530px) {
+
+    body {
+        background-color: rgb(240, 240, 240);
+    }
+
+    .background {
+        padding-top: 50px;
+        border: 2px solid lightgrey;
+        background-color: white;
+    }
+
+    b {
+        font-weight: 800;
+    }
+    .size3 {
+        font-size: 25px;
+    }
+
+    .link1 {
+        padding-top: 22px;
+    }
+
+    .sep {
+        display: none;
+    }
+
+    .card {
+        text-align: left;
+        width: 70%;
+        height: 24px;
+        color: black;
+        border-width: 0.8px;
+        box-shadow: 5px 5px 5px lightgrey;
+    }
+
+    .size2 {
+        position: relative;
+        font-size: 16px;
+        color: black;
+        margin-bottom: 30px;
+        bottom: 22px;
+    }
+}
+
+
+
+
+
+
+
